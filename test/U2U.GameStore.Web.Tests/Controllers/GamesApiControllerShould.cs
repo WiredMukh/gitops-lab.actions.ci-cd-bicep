@@ -13,6 +13,9 @@ using U2U.GameStore.Web.Controllers;
 using U2U.GameStore.Web.ViewModels.GamesAPI;
 using Xunit;
 
+using Assert = Xunit.Assert;
+
+
 namespace U2U.GameStore.Web.Tests.Controllers
 {
   public class GamesApiControllerShould 

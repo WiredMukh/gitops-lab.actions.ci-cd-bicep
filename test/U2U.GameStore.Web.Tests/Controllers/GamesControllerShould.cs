@@ -8,6 +8,8 @@ using U2U.Games.Core.Services;
 using U2U.GameStore.Web.ViewModels.Games;
 using Xunit;
 
+using Assert = Xunit.Assert;
+
 namespace U2U.GameStore.Web.Controllers.Tests
 {
   public class GamesControllerShould

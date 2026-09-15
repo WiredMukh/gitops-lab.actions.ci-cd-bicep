@@ -113,3 +113,19 @@ jobs:
       with:
         name: MSIX Package
         path: ${{ env.Wap_Project_Directory }}\AppPackages
+        
+        name: CI-CD
+ 
+on:
+  push:
+    branches: 
+      - main
+    paths-ignore: 
+      - README.md
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+  env:
+  AZURE_RG: RG3
+  AZURE_SUBSCRIPTION: <<Subscription ID>>
+  AZURE-LOCATION: WestEurope
